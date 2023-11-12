@@ -782,6 +782,7 @@ body {
 }
 @media only screen and (max-width: 768px) {
   .container {
+    margin-top: 3rem;
     overflow: hidden;
   }
   .container .container {
