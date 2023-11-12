@@ -784,25 +784,16 @@ body {
 
       // Adjust font size for smaller screens
       @media only screen and (max-width: 599px) {
-        body {
-          max-width: 599px;
-          width: 100%;
-          height: 100%;
-      overflow: hidden;
-
-        }
+        overflow: hidden;
+        padding: 1rem 2rem;
       }
+
   @media only screen and (max-width: 768px) {
-    body, .container {
-      max-width: 768px;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-    }
+    
+    overflow: hidden;
    .container {
     width: 100%;
     height: 100%;
-    overflow: hidden;
     overflow: hidden;
 
    }
@@ -882,10 +873,8 @@ svg {
 
     // Make the SVG responsive
   @media only screen and (max-width: 768px) {
-    svg {
-      width: 25%; 
-    height: 25%;
-    }
+    display: none;
+    padding: 1rem 12rem;
   }
 
 }
