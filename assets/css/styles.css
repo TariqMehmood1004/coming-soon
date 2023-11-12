@@ -774,10 +774,25 @@ body {
   font-weight: 600;
   font-size: 3.25rem;
 }
+@media only screen and (max-width: 599px) {
+  .container body {
+    max-width: 599px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
 @media only screen and (max-width: 768px) {
+  .container body, .container .container {
+    max-width: 768px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
   .container .container {
     width: 100%;
     height: 100%;
+    overflow: hidden;
     overflow: hidden;
   }
   .container .comming-soon-title h1 {
